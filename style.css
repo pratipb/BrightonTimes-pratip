@@ -78,3 +78,15 @@ main{
     padding-right: 2em;
 }
 
+.score{
+    width: 100%;
+    padding: 10px;
+    line-height: 3;
+    padding-left: 12em;
+}
+
+td, th{
+    text-align: left;
+    font-weight: normal;
+}
+
