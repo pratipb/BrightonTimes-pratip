@@ -3,6 +3,7 @@
     box-shadow:  0 2px 5px rgba(0, 0, 0, 0.26);
 }
 .header-inner{
+    position: relative;
     display: flex;
     width: 100%;
     margin-left: auto;
@@ -10,20 +11,14 @@
     padding-bottom: 0.5em;
 }
 
-.header-logo {
-    height: 72px;
-    margin-right: 1em;
-    vertical-align: top;
-    margin-top: 12px;
+.header-inner img{
+    width: 110px;
+    height: 120px;
+    margin-right: 20px;
 }
 
-.header__title {
-    text-align: center;
-    font-weight: 300;
-    font-size: 3em;
-    margin: 0.8em 0.25em 0 0.25em;
-    display: inline-block;
-    color: black;
+.header-inner h1{
+    font-size: 4em;
 }
 
 body{
