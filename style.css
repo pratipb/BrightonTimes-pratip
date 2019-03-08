@@ -142,3 +142,20 @@ td, th{
     padding-right: 10px;
     padding-bottom: 10px;
 }
+
+.list{
+    box-shadow: 0 0 10px 0px black;
+    justify-content: space-around;
+    display: flex;
+    padding: 1em;
+}
+
+.list li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.list li{
+    list-style-type: none;
+}
