@@ -26,5 +26,17 @@
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-list{
+    justify-content: space-around;
+    display: flex;
+}
+
+.nav-item{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    padding: 24px;
 }
