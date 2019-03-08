@@ -109,4 +109,24 @@ td, th{
     display: flex;
 }
 
+.weather-table{
+    width: 100%;
+    padding-left: 6em;
+    text-align: center;
+}
+
+.weather-table td,th{
+    text-align: center;
+}
+
+.weather-table  img{
+    width: 100px;
+}
+
+.latest-news{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding-right: 2em;
+}
 
