@@ -90,3 +90,23 @@ td, th{
     font-weight: normal;
 }
 
+.location{
+    display: block;
+    font-size: 20px;
+}
+
+.weather{
+    display: block;
+    font-size: 15px;
+}
+
+.weather-def{
+    position: relative;
+    display: flex;
+}
+
+.weather-icon{
+    display: flex;
+}
+
+
