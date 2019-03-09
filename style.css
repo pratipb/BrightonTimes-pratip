@@ -80,14 +80,20 @@ main{
     position: relative;
 }
 
+.article-news > h2 {
+    margin-top: -15px;
+}
+
 .article-news{
     position: relative;
     display: flex;
+    flex-direction: column;
     bottom: 11em;
-    background-color: whitesmoke;
+    background-color: lightgray;
     padding: 33px 0px 40px 29px;
     height: 7em;
-    opacity: 0.9;
+    opacity: 0.7;
+    color: black;
 }
 
 .top-news{
