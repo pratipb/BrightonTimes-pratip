@@ -111,7 +111,7 @@ main{
     padding-left: 12em;
 }
 
-td, th{
+.score  th{
     text-align: left;
     font-weight: normal;
 }
@@ -217,12 +217,16 @@ td, th{
         grid-area: 4 / 1 / 5 / 3;
     }
 
-    .table-style{
-        grid-area: 5 / 1 / 6 / 3;
-    }
+    /* .table-style{
+        grid-area: 3 / 2 / 4 / 3;
+    } */
 
     .brighton{
         grid-area: 3 / 2 / 4 / 3;
+    }
+
+    .table-score{
+        grid-area: 5 / 1 / 6 / 3;
     }
 
     .subheading{
