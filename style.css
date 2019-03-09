@@ -131,8 +131,11 @@ td, th{
     display: flex;
 }
 
-.weather-icon{
+.weather-icon {
     display: flex;
+    padding-left: 5em;
+    width: 180px;
+    height: 120px;
 }
 
 .weather-table{
@@ -146,7 +149,7 @@ td, th{
 }
 
 .weather-table  img{
-    width: 100px;
+    width: 100%;
 }
 
 .latest-news{
@@ -188,7 +191,7 @@ td, th{
 
  
 
-@media(max-width: 800px){
+@media all and (min-width:500px) and (max-width:800px){
     body{
         display: grid;
         grid-template-columns: repeat(2, 50%);
